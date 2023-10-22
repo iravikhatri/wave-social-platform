@@ -28,7 +28,7 @@ const Header = () => {
 					</Link>
 				</nav>
 				<nav className="w-full md:w-auto h-auto grid grid-cols-5 md:flex text-center text-sm font-light">
-					<Link href="/" className=" px-4 pt-3 pb-2 block">
+					<Link href="/feeds" className=" px-4 pt-3 pb-2 block">
 						<HomeIcon classes="inline-block" height="22px" width="22px" color="#ccc" />
 						<div className="hidden sm:block">Home</div>
 					</Link>
