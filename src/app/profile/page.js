@@ -2,12 +2,12 @@ import React from 'react';
 
 const Profile = () => {
 	return (
-		<div>
+		<div className="">
 			<div className="w-full h-48">
 				<img className="w-full h-48 object-cover" src="https://www.theladders.com/wp-content/uploads/friends-happy-190821.jpg" alt="" />
 			</div>
-			<div className="">
-				<div className="h-auto w-full bg-red-100 p-5 ">
+			<div className="container mx-auto">
+				<div className="h-auto w-full">
 					<div className="h-auto w-full -mt-24">
 						<div className="lg:grid grid-flow-col">
 							<div className="h-auto w-auto">

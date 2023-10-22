@@ -43,10 +43,10 @@ const Feeds = () => {
 	return (
 			<div className="container _container mx-auto">
 				<div className="lg:flex">
-					<div className="w-full lg:w-8/12">
+					<div className="w-full lg:w-3/5">
 						{posts.map(post => <PostCard key={post.id} post={post} />)}
 					</div>
-					<div className="w-full lg:w-4/12 ">
+					<div className="w-full lg:w-2/5">
 						<div className="">
 						</div>
 					</div>
